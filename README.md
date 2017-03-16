@@ -9,7 +9,7 @@ After each step of the player, the bunnies spread to the up, down, left and righ
 If the player dies or wins, the game ends. All the activities for this turn continue (e.g. all the bunnies spread normally), but there are no more turns. There will be no stalemates where the moves of the player end before he dies or escapes.
 Print the final state of the lair with every row on a separate line. On the last line, print either “dead: {row} {col}” or “won: {row} {col}”. Row and col are the coordinates of the cell where the player has died or the last cell he has been in before escaping the lair.
 
-Input:
+Input:\r\n
 •	On the first line of input, the number N and M are received – the number of rows and columns in the lair
 •	On the next N lines, each row is received in the form of a string. The string will contain only “.”, “B”, “P”. All strings will be the same length. There will be only one “P” for all the input
 •	On the last line, the directions are received in the form of a string, containing “R”, “L”, “U”, “D”
